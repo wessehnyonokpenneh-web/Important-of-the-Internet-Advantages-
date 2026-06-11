@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #e3f2fd, #f3e5f5);
+    color:#222;
+    line-height:1.8;
+}
+
+/* HEADER */
+header{
+    background: linear-gradient(to right, #0d47a1, #1a237e);
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    font-size:34px;
+    letter-spacing:2px;
+}
+
+/* NAVIGATION */
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    background:#1565c0;
+}
+
+nav a{
+    padding:15px 22px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#0d47a1;
+    border-radius:6px;
+}
+
+/* MAIN CONTAINER */
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:30px;
+}
+
+/* CARDS */
+.card{
+    background:white;
+    padding:30px;
+    margin:25px 0;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+h2{
+    color:#0d47a1;
+    margin-bottom:12px;
+    font-size:26px;
+}
+
+p{
+    margin-bottom:15px;
+    font-size:17px;
+}
+
+/* FOOTER */
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    padding:12px 18px;
+    background:#1976d2;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.btn:hover{
+    background:#0d47a1;
+}
